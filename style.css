@@ -53,3 +53,32 @@ body {
 	font-weight: 700;
 	color: var(--heading-text-color);
 }
+
+@media only screen and (max-width: 375px) {
+	.wrapper {
+		height: 100vh;
+		padding: 0px;
+		margin: 0px;
+	}
+	.stats-component {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 5%;
+		width: 100%;
+	}
+	.info-card {
+		text-align: center;
+	}
+	img {
+		width: 100%;
+	}
+	.stats {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.indvidual_stat {
+		margin: 6%;
+	}
+}
